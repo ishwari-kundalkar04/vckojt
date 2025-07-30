@@ -1,11 +1,11 @@
 import Header from "../components/Headers/Header";
 import { Link } from "react-router-dom"; // Import Link for internal navigation
-import './page.css'
+import "./page.css"
 import Footer from "../components/Footer/Footer";
 
 const ContactPage = () => {
   return (
-     <div className="main-layout">
+      <div className="main-layout" style={{minWidth:'1520px'}}>
       <Header/>
       <div className="content">
       <div className="page-container">
